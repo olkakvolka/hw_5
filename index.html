@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="script/form.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<form id='person_info'>
+	    <input type="text" id="surname" placeholder="Фамилия">
+	    <input type="text" id="firstname" placeholder="Имя">
+	    <input type="text" id="middlename" placeholder="Отчество">
+		<input type="date" id="age">
+		<span>Ваш пол:</span>
+		<label>
+			<span>Женский</span>
+			<input type="radio" name="sex" id="female" value="female" checked="">
+		</label>
+		<label>
+			<span>Мужской</span>
+			<input type="radio" name="sex" id="male" value="male">
+		</label>
+		<input type="text" id="profession" placeholder="Профессия">
+	    <button onclick='add_person (); return false' id="button_push">Отправить</button>
+	    <button onclick='print_longest_words (); return false' id="button_text">Ввести текст</button>
+	</form>
+	<a href="content/number.html">Страница с простыми числами</a>
+	<div id="info_surname"></div>
+	<div id="info_firstname"></div>
+	<div id="info_middlename"></div>
+	<div id="info_age"></div>
+	<div id="info_days_age"></div>
+	<div id="info_pension"></div>
+	<div id="info_sex"></div>
+	<div id="info_profession"></div>
+</body>
+</html>
