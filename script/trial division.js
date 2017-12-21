@@ -1,4 +1,4 @@
-var input_number = 100;
+var input_number = 1000;
 var primes = [2, 3];
 
 function is_prime(number) {
